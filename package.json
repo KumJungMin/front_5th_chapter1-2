@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/KumJungMin/front_5th_chapter1-2",
+  "homepage": "https://github.com/KumJungMin/front_5th_chapter1-2/",
   "name": "front-5th-chapter1-2",
   "private": true,
   "version": "0.0.0",
@@ -26,7 +26,7 @@
     "prepare": "husky",
     "build:test": "vite build --mode development",
     "build:prod": "vite build --mode production",
-    "predeploy": "pnpm run build:prod && cp dist/index.html dist/404.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
